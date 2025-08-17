@@ -1,0 +1,11 @@
+.container {
+  text-align: center;
+  padding: 2rem;
+  font-family: sans-serif;
+}
+
+input {
+  width: 60px;
+  padding: 5px;
+  margin-left: 10px;
+}
