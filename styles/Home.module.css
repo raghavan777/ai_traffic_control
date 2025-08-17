@@ -25,14 +25,16 @@
   flex-wrap: wrap;
 }
 
-input[type="number"], select {
+/* ⬇️ Scoped under .row so selectors are 'pure' for CSS Modules */
+.row input[type="number"],
+.row select {
   padding: 0.6rem 0.8rem;
   border: 1px solid rgba(0,0,0,0.15);
   border-radius: 8px;
   width: 120px;
 }
 
-button {
+.row button {
   padding: 0.7rem 1rem;
   border: none;
   border-radius: 10px;
